@@ -4,3 +4,5 @@
 # @Author : chang sir
 # @File : constants.py
 
+
+DOCS_BASE_URL = 'http://'

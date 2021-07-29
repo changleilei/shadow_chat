@@ -2,4 +2,12 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/7/29 0029 下午 22:18 
 # @Author : chang sir
-# @File : utils.py 
+# @File : utils.py
+
+
+class AvailableEndpoints:
+
+
+
+    def read_endpoints():
+        pass
