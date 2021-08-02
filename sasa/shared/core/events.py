@@ -17,6 +17,7 @@ from typing import (
     Tuple,
 )
 
+from abc import ABC
 
 class Event:
     pass
@@ -76,3 +77,9 @@ class UserUttered(Event):
     def intent_name(self) -> Optional[Text]:
         return self.intent.get(INTENT_NAME_KEY)
 
+
+class AlwaysEqualEventMixin(Event, ABC):
+    pass
+
+class SessionStarted(AlwaysEqualEventMixin):
+    pass
